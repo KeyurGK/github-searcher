@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#F7B42C;
+    display:flex;
+    flex-direction:column;
+    
+   
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    min-height:100vh;
+}
+#title{
+    
+    margin-left:35%;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    border-radius:20px;
+    box-shadow:0 5px 10px;
+    background-image:linear-gradient(315deg,#4ce4ca 0%,    
+    #07248d 75%);
+    width:250px;
+    margin-top:50px;
+    margin-left:5%;
+}
+#search{
+    border:2px solid blue;
+    padding:5px;
+    border-radius:5px;
+    margin-left:5%;
+    margin-top:5%;
+
+}
+#searchBtn{
+    width:75px;
+    border-color:#07248d;
+    margin-top:-2%;
+    margin-left:250px;
+}
+.avatar{
+    margin-top:5%;   
+    margin-left:70px;
+    height:100px;
+    width:100px;
+    border:3px solid #c5d7f0;
+    border-radius:50%;
+}
+.user-info{
+    margin-left:10%;
+}
+.user-info ul{
+    list-style:none;
+    margin-left:-40px;
+}
+#repoRow{
+    border-radius:20px;
+    box-shadow:0 5px 10px;
+    background-image:linear-gradient(315deg,#067b679e 0%,    
+    #07248d 75%);
+    width:250px;
+    position:absolute;
+    margin-left:250px;
+    margin-top:-320px;
+    padding:10px;
+}
+#repoRow h1{
+    color:white;
+    margin-left:8%;
+}
+#repoRow a{
+    margin-top:5px;
+    display:flex;
+    text-decoration: none;
+    color:white;
+    font-size:10px;
+    justify-content: center;
+    border:2px solid white;
+}
